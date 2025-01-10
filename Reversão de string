@@ -1,0 +1,9 @@
+def reverse_string(string):
+    resultado = ""
+    for char in string:
+        resultado = char + resultado
+    return resultado
+
+# Exemplo de uso
+texto = input("Digite uma string: ")
+print("String invertida:", reverse_string(texto))
